@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Contact - Alpha by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container medium">
+					<header>
+						<h2>Registro</h2>
+						<p>Por favor ingresá tus datos para rergistrarte en nuestro sitio</p>
+					</header>
+					<div class="box">
+						<form method="post" action="./success.html">
+							<div class="row gtr-50 gtr-uniform">
+								<!-- ATENCIÓN : Ésta página está tomando estilos de assets/css/main.css por lo que si querés modificar algo te recomiendo que prestes mucha atención a las clases de cada elemento -->
+
+								<!-- nombre -->
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+								</div>
+								<!-- email -->
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="email" placeholder="Ingrese Email" required>
+								</div>
+								<!-- nombre de usuario -->
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario" required>
+								</div>
+								<!-- fecha de nacimiento -->
+								<div class="col-6 col-12-mobilep">
+									<input type="date" name="fechaNac" id="fechaNac" required>
+								</div>
+								<!-- edad -->
+								<div class="col-12">
+									<input type="number" name="edad" min="18" max="100" placeholder="Ingrese su edad" required>
+								</div>
+								<!-- país de nacimiento -->
+								<div class="col-12">
+									<select name="pais" id="pais">
+										<option value="" selected disabled hidden>Elija una opción</option>
+										<option value="argentina">Argentina</option>
+										<option value="espania">España</option>
+										<option value="chile">Chile</option>
+										<option value="peru">Peru</option>
+										<option value="bolivia">Bolivia</option>
+									</select>
+								</div>
+
+								<!-- datos personales -->
+								<div class="col-12">
+									<textarea name="datosPersonales" id="datosPersonales" cols="100" rows="10"></textarea>
+								</div>
+
+								<!-- radio / una sola respuesta -->
+								<div class="col-12">
+									<p>¿Querés recibir correos con información?</p>
+									<label class="check-container">Si
+										<input type="radio" name="recibirInfo" id="" value="si">
+										<span class="checkmark checkmark-radio"></span>
+									</label>
+									<label class="check-container">No
+										<input type="radio" name="recibirInfo" id="" value="no">
+										<span class="checkmark checkmark-radio"></span>
+									</label>
+								</div>
+
+								<!-- check / posibilidad de respuesta múltiple -->
+								<div class="col-12 mt-4">
+									<label class="check-container">Guardar datos
+										<input type="checkbox" name="guardarDatos" id="si">
+										<span class="checkmark"></span>
+									  </label>
+								</div>
+
+								<!-- dejar en blaco el formulario -->
+								<div class="col-6">
+									<ul class="actions special">
+										<li><input type="reset" value="Borrar" /></li>
+									</ul>
+								</div>
+								
+								<!-- Enviar datos -->
+								<div class="col-6">
+									<ul class="actions special">
+										<li><input type="submit" value="Enviar" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
